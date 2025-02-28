@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cliníca Psicológica Maré Alta</title>
+    <link rel="stylesheet" href="./assets/styles/style.css">
+    <link rel="stylesheet" href="./assets/styles/reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&family=Press+Start+2P&display=swap"
+        rel="stylesheet">
+</head>
+<body>
+    <header id="hero" role="banner" aria-label="Página inicial">
+        <nav class="nav" aria-label="Navegação principal">
+            <!-- Logo -->
+            <a href="#hero" class="logo">
+                <img src="./assets/img/logo-lg.svg" alt="Maré Alta - Cliníca Psicológica" width="180">
+            </a>
+            <!-- Navegação Desktop -->
+            <ul class="nav_list">
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#about">Sobre</a></li>
+                <li><a href="#services">Serviços</a></li>
+                <li><a href="#team">Time</a></li>
+                <li><a href="#benefits">Vantangens e Beneficios</a></li>
+                <li><a href="#form">Contato</a></li>
+            </ul>
+        </nav>
+        <!-- Banner -->
+        <div class="banner">
+            <img src="./assets/img/logo-sm.svg" alt="Maré Alta - Cliníca Psicológica" class="banner_title_mobile">
+            <h1 class="banner_title">Maré Alta - Clínica Psicologica</h1>
+            <p class="banner_subtitle">Uma equipe de psicólogos dedicados a cuidar da sua saúde mental e emocional.</p>
+            <a href="#form" class="btn btn_primary">Agende sua consulta hoje mesmo!</a>
+        </div>
+    </header>
+    <main>
+        <!-- About Section -->
+        <section id="about" class="section" aria-label="Sobre o consultório">
+            <h2 class="section_title">Sobre nós</h3>
+            <div class="about_content">
+                <img src="assets/img/about.jpg" alt="Sala de atendimento do consultório" class="about_image">
+                <p class="section_text">
+                    Desde 2012, a <strong>clínica Maré Alta</strong> oferece um espaço seguro e confidencial para quem busca apoio emocional. Com mais de <span class="highlight">2.500 pacientes</span> atendidos, nossa abordagem combina técnicas modernas e empatia.
+                </p>
+                <p class="section_text">
+                    Nossa equipe é composta por <strong>8 profissionais</strong> especializados em áreas como TCC, psicanálise e terapia infantil, garantindo um atendimento personalizado para cada necessidade.
+                </p>
+                <a href="#team" class="btn btn_secondary">Conheça nossa equipe</a>
+            </div>
+        </section>
+        <!-- Services Section -->
+        <section id="services" class="section" aria-label="Nossos Serviços">
+            <h2 class="section_title">Como podemos ajudar você?</h2>
+            <div class="services_grid">
+                <article class="service_card">
+                    <h3 class="service_title">Terapia Individual</h3>
+                    <p class="service_description">
+                        Acompanhamento personalizado para adultos que buscam autoconhecimento ou enfrentam desafios como ansiedade,
+                        depressão, estresse e gestão de emoções.
+                    </p>
+                    <div class="service_highlights">
+                        <p class="service_highlight">
+                            <span class="highlight_icon">🧠</span>
+                            Abordagem: TCC e Psicodinâmica
+                        </p>
+                        <p class="service_highlight">
+                            <span class="highlight_icon">⏱️</span>
+                            Sessões de 50 minutos
+                        </p>
+                    </div>
+                    <a href="#form" class="service_link btn btn_secondary">Agendar avaliação inicial →</a>
+                </article>
+                <article class="service_card">
+                    <img src="assets/icons/online.svg" alt="" class="service_icon" aria-hidden="true">
+                    <h3 class="service_title">Terapia Online</h3>
+                    <p class="service_description">
+                        Atendimento por videochamada com a mesma qualidade do presencial, ideal para quem precisa de flexibilidade
+                        geográfica ou de horários.
+                    </p>
+                    <div class="service_highlights">
+                        <p class="service_highlight">
+                            <span class="highlight_icon">💻</span>
+                            Plataforma segura e confidencial
+                        </p>
+                        <p class="service_highlight">
+                            <span class="highlight_icon">🌎</span>
+                            Atendemos todo o Brasil
+                        </p>
+                    </div>
+                    <a href="#form" class="service_link btn btn_secondary">Agendar avaliação inicial →</a>
+                </article>
+                <article class="service_card">
+                    <h3 class="service_title">Terapia Infantil</h3>
+                    <p class="service_description">
+                        Acompanhamento especializado para crianças e adolescentes, utilizando técnicas lúdicas como
+                        <strong>brincadeiras</strong> e <strong>desenhos</strong> para expressar emoções e superar desafios
+                        comportamentais.
+                    </p>
+                    <div class="service_highlights">
+                        <p class="service_highlight">
+                            <span class="highlight_icon">👧</span>
+                            Idades: 3 a 17 anos
+                        </p>
+                        <p class="service_highlight">
+                            <span class="highlight_icon">👨👩</span>
+                            Inclui orientação aos pais
+                        </p>
+                    </div>
+                    <a href="#form" class="service_link btn btn_secondary">Agendar avaliação inicial →</a>
+                </article>
+                <article class="service_card">
+                    <img src="assets/icons/couple.svg" alt="" class="service_icon" aria-hidden="true">
+                    <h3 class="service_title">Terapia de Casal</h3>
+                    <p class="service_description">
+                        Reconstrua a conexão e resolva conflitos com mediação profissional. Trabalhamos comunicação,
+                        intimidade e projetos de vida compartilhados.
+                    </p>
+                    <div class="service_highlights">
+                        <p class="service_highlight">
+                            <span class="highlight_icon">💬</span>
+                            Abordagem: Terapia Sistêmica
+                        </p>
+                        <p class="service_highlight">
+                            <span class="highlight_icon">⏱️</span>
+                            Sessões de 80 minutos
+                        </p>
+                    </div>
+                    <a href="#form" class="service_link btn btn_secondary">Agendar avaliação inicial →</a>
+                </article>
+                <article class="service_card">
+                    <img src="assets/icons/group.svg" alt="" class="service_icon" aria-hidden="true">
+                    <h3 class="service_title">Grupo de Apoio</h3>
+                    <p class="service_description">
+                        Encontros semanais para compartilhar experiências sobre temas específicos como
+                        <strong>luto</strong>, <strong>TDAH</strong> ou <strong>autoestima</strong>, mediados por um psicólogo.
+                    </p>
+                    <div class="service_highlights">
+                        <p class="service_highlight">
+                            <span class="highlight_icon">👥</span>
+                            Vagas limitadas (máx. 8 pessoas)
+                        </p>
+                        <p class="service_highlight">
+                            <span class="highlight_icon">💵</span>
+                            Custo 40% menor que sessão individual
+                        </p>
+                    </div>
+                    <a href="#form" class="service_link btn btn_secondary">Agendar avaliação inicial →</a>
+                </article>
+                <article class="service_card">
+                    <img src="assets/icons/work.svg" alt="" class="service_icon" aria-hidden="true">
+                    <h3 class="service_title">Psicologia Ocupacional</h3>
+                    <p class="service_description">
+                        Atendimento focado em desafios do ambiente de trabalho: estresse, burnout, conflitos
+                        interpessoais e gestão de carreira.
+                    </p>
+                    <div class="service_highlights">
+                        <p class="service_highlight">
+                            <span class="highlight_icon">🏢</span>
+                            Parcerias com empresas
+                        </p>
+                        <p class="service_highlight">
+                            <span class="highlight_icon">📊</span>
+                            Avaliação de perfil comportamental
+                        </p>
+                    </div>
+                    <a href="#form" class="service_link btn btn_secondary">Agendar avaliação inicial →</a>
+                </article>
+            </div>
+        </section>
+        <!-- Team Section -->
+        <section id="team" class="section" aria-label="Nossa equipe">
+            <h2 class="section_title">Conheça quem vai cuidar de você</h2>
+            <p class="section_text">
+                Nossos psicólogos têm formações complementares e média de <strong>10 anos de experiência</strong>. 
+                Conheça alguns deles:
+            </p>
+            <div class="team_grid">
+                <article class="team_card" aria-label="Dra. Ana Costa">
+                    <figure class="team_img">
+                        <img src="assets/img/ana.jpg" alt="Dra. Ana Costa sorrindo em seu consultório">
+                    </figure>
+                    <div class="team_info">
+                        <h3 class="team_name">Dra. Ana Costa <br><span class="team_crp"> CRP 12/3456</span></h3>
+                        <h4 class="team_specialty">Especialista em Ansiedade e Trauma</h4>
+                        <p class="team_bio">
+                            Pós-graduada em Terapia Cognitivo-Comportamental e certificada em EMDR.
+                            Atua há 12 anos com jovens e adultos.
+                        </p>
+                        <a href="#form" class="btn btn_secondary">Agendar com Ana →</a>
+                    </div>
+                </article>
+                <article class="team_card" aria-label="Dr. Pedro Almeida">
+                    <figure class="team_img">
+                        <img src="assets/img/pedro.jpg" alt="Dr. Pedro Almeida em sessão com criança">
+                    </figure>
+                    <div class="team_info">
+                        <h3 class="team_name">Dr. Pedro Almeida<br> <span class="team_crp">CRP 12/7890</span></h3>
+                        <h4 class="team_specialty">Especialista em Psicologia Infantil</h4>
+                        <p class="team_bio">
+                            Mestre em Desenvolvimento Infantil. Utiliza abordagem lúdica e já atendeu mais de 300 crianças.
+                        </p>
+                        <a href="#form" class="btn btn_secondary">Agendar com Pedro →</a>
+                    </div>
+                </article>
+            </div>
+        </section>
+        <!-- Benefits Section -->
+        <section id="benefits" class="section" aria-label="Nossas vantagens">
+            <h2 class="section_title">O que nos diferencia?</h2>
+            <div class="benefits_grid">
+                <article class="benefit_card">
+                    <div class="benefit_content">
+                        <h3 class="benefit_title">Equipe Multidisciplinar</h3>
+                        <p class="benefit_text">
+                            10 profissionais com especializações complementares: TCC, psicanálise, infantil e mais.
+                        </p>
+                    </div>
+                </article>
+                <article class="benefit_card">
+                    <div class="benefit_content">
+                        <h3 class="benefit_title">Horários Flexíveis</h3>
+                        <p class="benefit_text">
+                            Atendemos das <strong>7h às 21h</strong> durante a semana e aos sábados pela manhã.
+                        </p>
+                    </div>
+                </article>
+                <article class="benefit_card">
+                    <div class="benefit_content">
+                        <h3 class="benefit_title">Sigilo Garantido</h3>
+                        <p class="benefit_text">
+                            Ambiente 100% confidencial e documentos protegidos por <strong>criptografia avançada</strong>.
+                        </p>
+                    </div>
+                </article>
+                <article class="benefit_card">
+                    <div class="benefit_content">
+                        <h3 class="benefit_title">Primeira Sessão Gratuita</h3>
+                        <p class="benefit_text">
+                            Experimente nosso método sem compromisso e decida se quer continuar.
+                        </p>
+                    </div>
+                </article>
+                <article class="benefit_card">
+                    <div class="benefit_content">
+                        <h3 class="benefit_title">Sem Fila de Espera</h3>
+                        <p class="benefit_text">
+                            Agendamento rápido: consultas disponíveis em até <strong>48 horas</strong>.
+                        </p>
+                    </div>
+                </article>
+                <article class="benefit_card">
+                    <div class="benefit_content">
+                        <h3 class="benefit_title">Material de Apoio</h3>
+                        <p class="benefit_text">
+                            Acesso a exercícios, planilhas e recursos exclusivos entre as sessões.
+                        </p>
+                    </div>
+                </article>
+            </div>
+        </section>
+        <!-- Form Section -->
+        <section id="form" class="section" aria-label="Formulário de contato">
+            <h2 class="section_title">Agende sua primeira sessão</h2>
+            <p class="section_text">
+                Preencha os campos abaixo e entraremos em contato em até <strong>24 horas</strong>.
+                Suas informações estão 100% protegidas.
+            </p>
+            <form action="#" method="post" class="form" aria-label="Formulário de agendamento">
+                <!-- Dados Pessoais -->
+                <fieldset class="form_group" aria-labelledby="personal-data-label">
+                    <legend id="personal-data-label" class="form_legend">Seus dados</legend>
+                    <div class="form_field">
+                        <label for="name">Nome completo *</label>
+                        <input type="text" id="name" name="name" required placeholder="Ex: Maria da Silva" aria-required="true">
+                    </div>
+                    <div class="form_field">
+                        <label for="email">Email *</label>
+                        <input type="email" id="email" name="email" required placeholder="maria@email.com" aria-required="true">
+                    </div>
+                    <div class="form_field">
+                        <label for="phone">Telefone *</label>
+                        <input type="tel" id="phone" name="phone" required pattern="\(\d{2}\) \d{4,5}-\d{4}"
+                            placeholder="(XX) 9 9999-9999" aria-required="true">
+                    </div>
+                </fieldset>
+                <!-- Detalhes da Consulta -->
+                <fieldset class="form_group" aria-labelledby="service-details-label">
+                    <legend id="service-details-label" class="form_legend">Sobre a consulta</legend>
+                    <div class="form_field">
+                        <label for="service_type">Tipo de atendimento *</label>
+                        <select id="service_type" name="service_type" required aria-required="true">
+                            <option value="" disabled selected>Selecione uma opção</option>
+                            <option value="individual">Terapia Individual</option>
+                            <option value="online">Terapia Online</option>
+                            <option value="couple">Terapia de Casal</option>
+                            <option value="child">Terapia Infantil</option>
+                            <option value="group">Grupo de Apoio</option>
+                            <option value="ocupational">Psicologia Ocupacional</option>
+                        </select>
+                    </div>
+                    <div class="form_field">
+                        <label for="preferred_contact">Prefere ser contactado por: *</label>
+                        <div class="form_radio_group" role="radiogroup">
+                            <label class="form_radio_label">
+                                <input type="radio" name="contact" value="whatsapp" checked aria-checked="true" role="radio">
+                                WhatsApp
+                            </label>
+                            <label class="form_radio_label">
+                                <input type="radio" name="contact" value="email" aria-checked="false" role="radio"> Email
+                            </label>
+                        </div>
+                    </div>
+                    <div class="form_field">
+                        <label for="message">Mensagem (opcional)</label>
+                        <textarea id="message" name="message" rows="5"
+                            placeholder="Ex: Prefiro horários no início da manhã"></textarea>
+                    </div>
+                </fieldset>
+                <!-- Termos e Envio -->
+                <div class="form_terms">
+                    <label class="form_checkbox_label">
+                        <input type="checkbox" required aria-required="true"><a href="/politica-de-privacidade" target="_blank">Concordo com a Política de Privacidade *</a>
+                    </label>
+                </div>
+                <button type="submit" class="btn form_btn" aria-label="Enviar formulário">
+                    Enviar Agendamento
+                </button>
+            </form>
+        </section>
+    </main>
+    <footer class="footer" aria-label="Informações de contato e redes sociais">
+        <div class="footer_grid">
+            <!-- Endereço -->
+            <address class="footer_card" aria-label="Endereço">
+                <h2 class="footer_title">Onde estamos</h2>
+                <p class="footer_text">
+                    Rua das Emoções, 123<br>
+                    Bairro Bem-Estar<br>
+                    São Paulo/SP
+                </p>
+                <a href="https://maps.app.goo.gl/XXXXX" target="_blank" class="footer_link" rel="noopener">
+                    Ver no mapa
+                </a>
+            </address>
+            <!-- Horários -->
+            <div class="footer_card" aria-label="Horários de atendimento">
+                <h2 class="footer_title">Horários</h2>
+                <dl class="footer_list">
+                    <dt>Segunda a Sexta</dt>
+                    <dd>8h às 20h</dd>
+                    <dt>Sábado</dt>
+                    <dd>9h às 13h</dd>
+                    <dt>Emergências</dt>
+                    <dd>24h pelo WhatsApp</dd>
+                </dl>
+            </div>
+            <!-- Contato -->
+            <address class="footer_card" aria-label="Contatos">
+                <h2 class="footer_title">Fale conosco</h2>
+                <ul class="footer_list">
+                    <li>
+                        <a href="tel:+5511999999999" class="footer_link">
+                            (11) 99999-9999
+                        </a>
+                    </li>
+                    <li>
+                        <a href="mailto:contato@consultorio.com" class="footer_link">
+                            contato@consultorio.com
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://wa.me/5511999999999" target="_blank" class="footer_link" rel="noopener">
+                            WhatsApp Prioritário
+                        </a>
+                    </li>
+                </ul>
+            </address>
+            <!-- Redes Sociais -->
+            <div class="footer_card" aria-label="Redes sociais">
+                <h2 class="footer_title">Siga-nos</h2>
+                <nav aria-label="Links para redes sociais">
+                    <ul class="footer_socials">
+                        <li>
+                            <a href="https://instagram.com/" class="social_link" aria-label="Instagram">
+                                <img src="./assets/img/instagram.png" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://facebook.com/" class="social_link" aria-label="Facebook">
+                                <img src="./assets/img/facebook.png" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://linkedin.com/company/" class="social_link" aria-label="LinkedIn">
+                                <img src="./assets/img/linkedin.png" alt="">
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <!-- Créditos -->
+        <div class="footer_credits">
+            <p>
+                © 2024 Consultório Maré Alta. Todos os direitos reservados.
+                <br>
+                Desenvolvido por <a href="#" target="_blank" rel="noopener">Carolina Gonçalves.</a>
+            </p>
+        </div>
+    </footer>
+</body>
+</html>
